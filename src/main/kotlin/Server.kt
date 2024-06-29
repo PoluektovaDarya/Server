@@ -54,8 +54,7 @@ class Server(private var port: Int) {
                             db.register(post.argument)
                         }
                         else -> {
-                            LoggerMy.log("Пользователь еблан", "server")
-                            // ЧЁ ТЫ ВЫСРАЛ
+                            LoggerMy.log("Error in request", "server")
                         }
                     }
 
